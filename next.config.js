@@ -11,6 +11,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Add this line to satisfy Turbopack in Next.js 16
+  turbopack: {},
 }
 
 module.exports = withPWA(nextConfig)
